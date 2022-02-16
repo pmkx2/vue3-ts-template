@@ -1,0 +1,30 @@
+# 该规则文件对应'EditorConfig for VS Code'插件
+# 匹配规则是从上往下，先定义的规则比后定义的规则优先级要高
+# 参数解释：https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+
+# 告诉插件这是根文件，不需要继续往上查找
+root = true
+
+# 匹配文件类型: js,jsx,ts,tsx,vue
+[*.{js,jsx,ts,tsx,vue}]
+# 缩进的样式为空格
+indent_style = space
+# 缩进为2
+indent_size = 2
+# 保存时的结尾换行符，可选'lf'、'cr'、'crlf'
+end_of_line = lf
+# 保存时修剪结尾的空格
+trim_trailing_whitespace = true
+# 保存时在文件结尾插入新行
+insert_final_newline = true
+# 行最大长度为100
+max_line_length = 100
+# 使用'utf-8'字符集。
+charset = utf-8
+
+# 匹配文件类型: yml,yaml,json
+[*.{yml,yaml,json}]
+# 缩进的样式为空格
+indent_style = space
+# 缩进为2
+indent_size = 2
